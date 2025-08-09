@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.advancedhostility.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "advancedhostility.refmap.json",
+  "mixins": [
+    "PathfinderMobMixin",
+    "MobMixin",
+    "NearestAttackableTargetGoalMixin",
+    "TargetingConditionsAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
